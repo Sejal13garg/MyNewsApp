@@ -13,7 +13,7 @@ import {
 }from "react-router-dom";
 
 export default class App extends Component {
-  apiKey="140d7577086249c29d572ae3a19d0958"
+  apiKey=`${process.env.REACT_APP_NEWS_API}`
   state={
     progress:0
   }
